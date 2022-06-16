@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CricketAcademy</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <style>
+        body {
+            padding: 0px;
+            margin: 0px;
+            background: url('https://cricketaddictor.com/wp-content/uploads/2022/01/Commonwealth-Games-Womens-T20.jpg');
+            background-repeat: no-repeat;
+            font-family: 'Baloo Bhaijaan 2', cursive;
+        }
+
+        .left {
+            /* border: 3px solid #0000ff; */
+            display: inline-block;
+            position: absolute;
+            top: 20px;
+            left: 80px;
+        }
+
+        .left img {
+            width: 100px;
+        }
+
+        .mid {
+            /* border: 3px solid rgb(205, 5, 5); */
+            display: block;
+            width: 36%;
+            margin: 20px auto;
+
+
+        }
+
+        .right {
+            /* border: 3px solid rgb(3, 207, 0); */
+            display: inline-block;
+            position: absolute;
+            right: 10px;
+            top: 20px;
+        }
+
+        .navbar {
+            display: inline-block;
+            border: 3px solid black;
+            border-radius: 30px;
+            background-color: white;
+        }
+
+        .navbar ul li {
+            display: inline-block;
+        }
+
+        a {
+            text-decoration: none;
+            padding: 20px 24px;
+            font-size: 20px;
+            color: rgb(0, 0, 0);
+        }
+
+        .navbar ul li a:hover,
+        .navbar ul li a.active {
+            text-decoration: underline;
+            color: grey;
+        }
+
+        .btn {
+            background-color: rgb(0, 0, 0);
+            color: rgb(255, 255, 255);
+            border: 2px solid grey;
+            border-radius: 10px;
+            padding: 10px 7px;
+            width: 80px;
+            margin: 3px 10px;
+            font-size: 16px;
+            font-family: 'Baloo Bhaijaan 2', cursive;
+        }
+
+        .btn:hover {
+            background-color: grey;
+            cursor: pointer;
+        }
+
+        .container {
+            border: 3px solid black;
+            width: 35%;
+            margin: 100px 120px;
+            padding: 40px 40px;
+            border-radius: 30px;
+            display: inline-block;
+
+
+        }
+
+        .formgroup input {
+            display: block;
+            width: 300px;
+            margin: 8px auto;
+            padding: 3px;
+            font-size: 20px;
+            border: 2px solid grey;
+            border-radius: 8px;
+            text-align: center;
+            font-family: 'Baloo Bhaijaan 2', cursive;
+
+        }
+
+        .container button {
+            display: block;
+            width: 310px;
+            margin: auto;
+            border-radius: 12px;
+
+
+        }
+
+        .container h3 {
+            text-align: center;
+            font-size: 27px;
+            font-weight: bold;
+
+        }
+
+        .virat {
+            display: inline-block;
+            width: 500px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <header class="cls">
+        <div class="left">
+            <img src="logo.png" alt="logo">
+        </div>
+        <div class="mid">
+            <nav class="navbar">
+                <ul>
+                    <li><a class="active" href="#">Home</a></li>
+                    <li><a href="#">Academy</a></li>
+                    <li><a href="#">Join us</a></li>
+                    <li><a href="#">About us</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="right">
+            <button class="btn">call us</button>
+            <button class="btn">Email us</button>
+        </div>
+    </header>
+
+    <div class="container">
+        <h3>Join The best cricket Academy in UP</h3>
+        <form action="backend.php">
+            <div class="formgroup">
+                <input type="text" name="" id="" placeholder="Enter Your Name">
+                <input type="text" name="" id="" placeholder="Enter age">
+                <input type="text" name="" id="" placeholder="enter contact number">
+                <input type="text" name="" id="" placeholder="enter email">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
